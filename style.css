@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.responsive-menu {
+	text-align: right;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+.clear-fixed::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.fix-width{
+    width: 1024px;
+    margin: auto;
+    
+}
+/* .header-section */
+.responsive-menu{
+    display: none;
+}
+.header{
+    background: #22c3a3;
+    padding: 10px;
+}
+.header .logo {
+	width: 30%;
+	float: left;
+	margin-top: 10px;
+}
+.header .logo a {
+    color: #ddd;
+    line-height: 47px;
+}
+.menu{
+    float: right;
+    width: 70%;
+}
+.menu ul {
+	padding: 10px;
+	text-align: right;
+	margin-bottom: 0;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a {
+    display: inline-block;
+    color: rgba(15, 2, 2, 0.801);
+    padding: 10px 20px;
+    transition: .5s;
+    
+}
+.menu ul li a:hover{
+    color: rgba(1, 15, 9, 0.616);
+    background: #22c3a3;
+}
+/* bannar  */
+.banner-section{
+    background-image: url("https://i.ibb.co/GFVH08Z/header-bg01.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+}
+.banner{
+    text-align: center;
+}
+.banner h1 {
+   color: #fff;
+   text-transform: uppercase;
+   padding: 10px 0;
+   font-size: 40px;
+}
+.banner h4 {
+   color: #fff;
+   padding: 10px 0;
+   font-weight: 300;
+}
+button{
+   background: #0cbf9a;
+   color: #fff;
+   border: 1px solid#fff;
+   padding: 10px 20px;
+   display: inline-block;
+   margin-top: 10px;
+   border-radius: 5px;
+}
+button:hover{
+    background: rgba(5, 22, 54, 0.452);
+    border: 1px solid #000;
+}
+/* our- services */
+.our-service {
+    padding: 60px 0;
+    
+}
+.service{}
+.service h1 {
+    padding: 20px 0;
+    text-align: center;
+}
+.service p{
+    text-align: center;
+}
+/* service-item */
+.service-item {
+    padding: 60px 0;
+    border-bottom: 2px solid #2ac7a7;
+    
+}
+span {
+    font-size: 30px;
+    color: #22c3a3;
+}
+.box-1 h2 {
+    margin-top: 20px;
+    padding: 5px 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+.service-item .box-1{
+    width: 20%;
+    float: left;
+    margin: 20px;
+    padding: 20px 0;
+    text-align: center;
+}
+/* about-section */
+.about-section {
+    padding: 20px 0;
+}
+.about-us{
+    text-align: center;
+    
+}
+.about-us h2{
+    padding: 20px 0;
+}
+.about-us p {
+    padding-bottom: 40px;
+}
+.content-section{
+    padding: 50px 0;
+}
+.left-side{
+    float: left;
+    width: 45%;
+}
+ .right-side{
+    float: right;
+    width: 55%; 
+}
+.lorem-1 {
+    padding: 15px;
+}
+.lorem-2 {
+    padding: 15px;
+}
+.lorem-3 {
+    padding: 15px;
+}
+.contact-section{
+    padding: 60px 0;
+}
+.contact-us{
+    text-align: center;
+}
+.contact-us h2{
+    padding: 20px 0;
+}
+.contact-us p{}
+.other {
+    padding: 100px 0;
+    margin-right: 5px;
+}
+.other .map{
+    float: left;
+    width: 33%;
+    text-align: center;
+
+}
+.other .map span{
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Work Sans',;
+    font-weight: 200;
+    
+}
+/* footer-menu */
+.footer-menu{
+    background: #0dbf9b;
+    text-align: center;
+}
+.icon-menu{}
+.icon-menu ul{
+    padding: 10px;
+}
+.icon-menu ul li{
+    display: inline-block;
+}
+.icon-menu ul li a {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 25px;
+}
+.icon-menu ul li a:hover{
+    color: #e6e9e8a2;
+}
+.footer{
+    text-align: center;
+    background: #000;
+    color: #4d4d4d;
+    padding: 20px 0;
+}
